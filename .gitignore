@@ -1,0 +1,97 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Kotlin ###
+.kotlin
+
+# Java / Kotlin / Gradle
+/build/
+/out/
+/.gradle/
+/.idea/
+/*.iml
+.gradle/
+/bin/
+
+# Kotlin specific
+*.class
+*.kt.class
+*.kts.class
+
+# Lombok generated files
+*.lombok.config
+lombok.config
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+
+# Local environment files
+.env
+.env.*
+
+# Compiled batch files or temp files
+*.batch
+*.tmp
+
+# Spring Boot
+# (Exclude application-local.yml or secrets config if applicable)
+application-*.yml
+application-*.properties
+application-*.yaml
+
+# Exposed database metadata/cache if any (none by default, but just in case)
+.exposed/
+
+# Kotlin build cache
+.kotlinc/
+
+# Git itself
+.git/
+
+# Ignore local database files (e.g., H2, SQLite)
+*.mv.db
+*.h2.db
+*.db
+
+# Kotlin Script cache
+.gradle.kts/
