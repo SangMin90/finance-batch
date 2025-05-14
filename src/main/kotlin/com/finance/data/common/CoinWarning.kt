@@ -1,0 +1,10 @@
+package com.finance.data.common
+
+enum class CoinWarning {
+    WARNING, PRICE_FLUCTUATIONS
+    , TRADING_VOLUME_SOARING
+    , DEPOSIT_AMOUNT_SOARING
+    , GLOBAL_PRICE_DIFFERENCES
+    , CONCENTRATION_OF_SMALL_ACCOUNTS
+    , NONE
+}
